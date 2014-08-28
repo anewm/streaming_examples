@@ -1,7 +1,7 @@
 streaming_examples
 ==================
 
-Assumes: Spark and Hadoop are installed
+Assumes: Spark (1.0.2) and Hadoop are installed
 
 
 (A) Spark Streaming (using Scala)
