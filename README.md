@@ -13,7 +13,6 @@ Borrowing pieces of: http://ampcamp.berkeley.edu/big-data-mini-course/realtime-p
 
 * Create a new Scala project.
 * Save .jar files in jars folder and add to project build path.
-* Bring Tutorial.Scala into the project.
 * Add the file "twitter4j.properties" to the root for your project directory:
 
 ```
@@ -27,4 +26,8 @@ Borrowing pieces of: http://ampcamp.berkeley.edu/big-data-mini-course/realtime-p
 
 
 * Add another .jar to your project build path: go to your Spark installation directory, go to the /lib folder and add "spark-assembly-1.0.2-hadoop2.2.0" (assuming you installed Spark version 1.0.2--if not, things may have changed and the other .jar files may not work together).
-* 
+* Bring Tutorial.Scala into the project.
+* Edit two lines: 
+  * val ssc = new StreamingContext("local[12]", "Twitter Downloader", Seconds(30)) -->
+  - "local[12] should be replaced with the URL of your Spark cluster (it could still be local[x] if it's installed locally)
+  * val checkpointDir = "hdfs://localhost:9000/user/a/twittertest" put your hdfs location in there
