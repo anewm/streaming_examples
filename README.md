@@ -30,4 +30,5 @@ Borrowing pieces of: http://ampcamp.berkeley.edu/big-data-mini-course/realtime-p
 * Edit two lines: 
   * val ssc = new StreamingContext("local[12]", "Twitter Downloader", Seconds(30)) -->
   - (local[12] should be replaced with the URL of your Spark cluster (it could still be local[x] if it's installed locally))
+  
   * val checkpointDir = "hdfs://localhost:9000/user/a/twittertest" put your hdfs location in there
