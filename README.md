@@ -11,10 +11,10 @@ Borrowing pieces of: http://ampcamp.berkeley.edu/big-data-mini-course/realtime-p
 (If you're using Eclipse for Scala, make sure you're using 4.2 or below (at least if you plan on using the Scala IDE plugin--it's possible this has been updated--just check))
 
 
-*Create a new Scala project.
-*Save .jar files in jars folder and add to project build path.
-*Bring Tutorial.Scala into the project.
-*Add the file "twitter4j.properties" to the root for your project directory:
+* Create a new Scala project.
+* Save .jar files in jars folder and add to project build path.
+* Bring Tutorial.Scala into the project.
+* Add the file "twitter4j.properties" to the root for your project directory:
 
 debug=true
 oauth.consumerKey=xxxx
