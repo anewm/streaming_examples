@@ -16,8 +16,8 @@ Borrowing pieces of: http://ampcamp.berkeley.edu/big-data-mini-course/realtime-p
 3. Bring Tutorial.Scala into the project.
 4. Add the file "twitter4j.properties" to the root for your project directory:
 
-⋅⋅*  debug=true \n
-⋅⋅* oauth.consumerKey=xxxx \n
+⋅⋅*  debug=true
+⋅⋅* oauth.consumerKey=xxxx
 ⋅⋅* oauth.consumerSecret=xxxx
 ⋅⋅* oauth.accessToken=xxxx
 ⋅⋅* oauth.accessTokenSecret=xxxx
