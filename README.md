@@ -25,7 +25,7 @@ Assumes: Spark (1.0.2) and Hadoop are installed
   * Click "Manage api keys"
   * At the bottom of the app page, click "Create my access token"
   * In the top right of the page, click "Test OAuth"
-  * Put the information in the twitter4j file you just created
+  * Put the information in the twitter4j.properties file you just created
 
 
 * Add another .jar to your project build path: go to your Spark installation directory, go to the /lib folder and add "spark-assembly-1.0.2-hadoop2.2.0" (assuming you installed Spark version 1.0.2--if not, things may have changed and the other .jar files may not work together).
