@@ -22,8 +22,9 @@ Assumes: Spark (1.0.2) and Hadoop are installed
 ```
   * We need to get the twitter oauth information now;
   * Go to https://dev.twitter.com/apps , and create an arbitrary application (put in arbitrary information)
+  * Click "Manage api keys"
   * At the bottom of the app page, click "Create my access token"
-  * Go to the Oauth tool tab
+  * In the top right of the page, click "Test OAuth"
   * Put the information in the twitter4j file you just created
 
 
