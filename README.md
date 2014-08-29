@@ -20,11 +20,11 @@ Assumes: Spark (1.0.2) and Hadoop are installed
   oauth.accessToken=xxxx
   oauth.accessTokenSecret=xxxx
 ```
-* We need to get the twitter oauth information now;
-* Go to https://dev.twitter.com/apps , and create an arbitrary application (put in arbitrary information)
-* At the bottom of the app page, click "Create my access token"
-* Go to the Oauth tool tab
-* Put the information in the twitter4j file you just created
+  * We need to get the twitter oauth information now;
+  * Go to https://dev.twitter.com/apps , and create an arbitrary application (put in arbitrary information)
+  * At the bottom of the app page, click "Create my access token"
+  * Go to the Oauth tool tab
+  * Put the information in the twitter4j file you just created
 
 
 * Add another .jar to your project build path: go to your Spark installation directory, go to the /lib folder and add "spark-assembly-1.0.2-hadoop2.2.0" (assuming you installed Spark version 1.0.2--if not, things may have changed and the other .jar files may not work together).
